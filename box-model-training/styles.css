@@ -1,3 +1,5 @@
+/* UNIVERSAL STYLES BELOW */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -18,13 +20,14 @@ a {
     color: white;
 }
 
-.navbar, .header {
+
+/* NAVBAR STYLES BELOW */
+.navbar, .header { /* this rule is shared with heros header */
     background-color: #1F2937;
-    outline: 2px solid red;
 }
 
 .container {
-    max-width: 1250px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -42,5 +45,49 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: bolder;
 }
+
+/* HERO (HEADER ELEMENT) STYLES BELOW */
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.container.hero {
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+
+.intro {
+    margin-right: 25px;
+}
+
+.image {
+    flex-basis: 605px;
+    flex-shrink: 0;
+    background-color: gray;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* INFORMATION SECTION STYLES BELOW */
