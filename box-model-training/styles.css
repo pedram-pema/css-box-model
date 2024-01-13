@@ -18,12 +18,13 @@ a {
     color: white;
 }
 
-.navbar {
-    background-color: #1F2937
+.navbar, .header {
+    background-color: #1F2937;
+    outline: 2px solid red;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1250px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
