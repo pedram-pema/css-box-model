@@ -72,7 +72,6 @@ a {
 
 .image {
     flex-basis: 605px;
-    flex-shrink: 0;
     background-color: gray;
     align-self: stretch;
     display: flex;
@@ -91,3 +90,35 @@ button {
 }
 
 /* INFORMATION SECTION STYLES BELOW */
+.cards-title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.item {
+    width: 150px;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.container.information {
+    padding: 25px 175   px 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+/* QUOTE SECTION STYLES BELOW */
