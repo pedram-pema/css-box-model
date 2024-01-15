@@ -37,7 +37,7 @@ a {
     padding: 25px 0px;
 }
 
-.container {
+.container { /* This rule is gonna be shared with each section in order to make them flex and also deploy the same width for almost all sections. */
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -175,6 +175,7 @@ button {
 .CAT-button {
     border-color: white;
     align-self: center;
+    flex-shrink: 0;
 }
 
 /* FOOTER STYLES BELOW */
@@ -182,5 +183,5 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
